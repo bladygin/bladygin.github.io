@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- To jest komentarz -->
+    <!-- <p>Lorem</p> -->
+
+    <!-- Znaczniki liniowe -->
+    <a href="">To jest link</a>
+    <a href="">To jest link</a>
+    <a href="">To jest link</a>
+
+    <!-- Znaczniki blokowe -->
+    <div>TO jest blok kodu</div>
+    <p>To jest paragraf</p>
+
+    <!-- Łączenie znaczników liniowych i blokowych -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="">Fugit</a> Dignissimos ducimus reiciendis obcaecati cum corrupti quaerat recusandae ipsam, natus possimus pariatur.</p>
+
+    <!-- Odnośniki -->
+    <!-- zawnętrzny -->
+    <a href="https://google.com" target="blank">Link do Google</a>
+
+    <a href="https://akademia108/kontakt">Kontakt Akademia</a>
+    <!-- wewnętrzny -->
+    <a href="./kontakt/index.html">Kontakt</a>
+
+    <!-- kotwica -->
+    <a href="#about">Sekcja o mnie</a>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    
+    <section id="about">O mnie
+        <h1>To ja</h1>
+    </section>
+
+    <!-- Adres email -->
+    <a href="mailto:bladygin@gmail.com">Wyślij wiadomość</a>
+
+    <!-- Tabele -->
+    <table>
+        <thead>
+             <tr>
+                 <th>Produkt</th>
+                 <th>Ilość</th>
+             </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Kawa</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Herbata</td>
+                <td>6</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Razem</td>
+                <td>8</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Formularze -->
+    <form action="" method="">
+        <label for="Imię">Imię</label>
+        <input maxlenght="10" type="text" name="first-name" id="Imię" required placeholder="Imię"><br>
+        <input type="email" name="email" placeholder="email"><br>
+        <input type="number" name="quantity"><br>
+        <input type="checkbox" id="agreement" required><label for="agreement">Zgoda na dane</label><br>
+        <!-- lub -->
+        <label><input type="radio" name="gender">Mężczyzna </label><br>
+        <label><input type="radio" name="gender">Kobieta </label><br>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+        <select name="city" id="">
+            <option value="krk">Kraków</option>
+            <option value="wro" selected >Wrocław</option>
+            <option value="waw">Warszawa</option>
+        </select><br>
+
+
+        <button>Wyślij</button><br>
+        <!-- lub -->
+        <input type="submit">
+
+
+
+
+    </form>
+
+
+</body>
+</html>
