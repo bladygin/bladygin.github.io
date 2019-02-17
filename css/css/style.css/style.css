@@ -1,0 +1,120 @@
+* {
+    color: red;
+}
+
+/* selektor łączony */
+div.connected p {
+    color:green;
+}
+
+/* selektor pseudoelementów */
+div.connected p::before {
+    content:"*";
+    color: red;
+}
+
+div.connected p::after {
+    content:"&";
+    color: yellow;
+}
+
+/* pseudoklasy */
+.hover a {
+    color: green;
+    text-decoration: none;
+}
+
+.hover a:hover {
+    color: red;
+}
+
+form.input:focus {
+    border: 2px solid brown;
+    outline: 0;
+}
+
+ul :first-child {
+    color: violet;
+}
+
+ul li:last-child {
+    color: aqua;
+}
+
+/* ul li:nth-of-type(3) {
+    color:orange;
+}
+
+ul li:nth-of-type(3n+2) {
+    color: gray;
+} */
+
+ul li:nth-of-type(even) {
+    color: blue;
+}
+
+/* atrybuty */
+input[title] {
+    border: 2px solid violet;
+}
+
+/* konkretna wartość */
+input[title="siódmy"] {
+    border: 2px solid green;
+}
+
+/* szuka, czy występuje dany string */
+input[title~="input"] {
+    border: 2px solid yellow;
+}
+
+/* szuka, czy jest dany ciąg znaków */
+input[title*="op"] {
+    border: 2px solid darkblue;
+}
+
+/* czy zaczyna się ciągiem znaków */
+input[title^="pie"] {
+    border: 2px solid darkgoldenrod;
+}
+
+/* czy końcczy się ciagiem znaków */
+input[title$="tni"] {
+    border: 2px solid  darkmagenta;
+}
+
+
+/* POZYCJONOWANIE */
+
+.relative {
+    position: relative;
+}
+
+.orange,
+.grey {
+    height: 300px;
+}
+
+.orange {
+    background-color: orange;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.grey {
+    background-color: grey;
+}
+
+#main-nav {
+    /* position: fixed; */
+    position: sticky;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+
+
