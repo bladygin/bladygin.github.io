@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zapisy na szkolenie</title>
+</head>
+<body>
+    <h1>Uzupełnij formularz, aby zapisać się na szkolenie!</h1>
+
+    <form action="https://formspree.io/bladygin@gmail.com" method="POST">
+        <label for="imie">*Imię:</label><br>
+        <input type="text" id="imie" name="imie" placeholder="Tu wpisz imię" required><br>
+        <label for="nazwisko">*Nazwisko:</label><br>
+        <input type="text" id="nazwisko" name="nazwisko" placeholder="Tu wpisz nazwisko" required><br>
+        <label for="email">*Adres e-mail:</label><br>
+        <input type="email" id="email" name="mail" placeholder="Tu wpisz swój mail" required><br>
+        <label for="numer">Numer telefonu:</label><br>
+        <input type="number" id="numer" name="numer" placeholder="Podaj numer telefonu"><br>
+        <label for="miasto">Wybierz miasto kursu:</label><br>
+        <select name="miasto" id="miasto">
+            <option value="krakow">Kraków</option>
+            <option value="warszawa">Warszawa</option>
+            <option value="gdansk">Gdańsk</option>
+        </select><br>
+        <input type="radio" name="plec">Kobieta<br>
+        <input type="radio" name="plec">Mężczyzna<br>
+        <input type="checkbox" name="zgoda">Wyrażam zgodę na użycie danych osobowych.<br>
+        <label for="wiadomosc">Twoja wiadomość:</label><br>
+        <textarea name="wiadomosc" id="wiadomosc" cols="50" rows="10"></textarea><br>
+        <input type="submit" value="Wyślij">
+    </form>
+</body>
+</html>
