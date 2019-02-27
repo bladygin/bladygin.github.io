@@ -1,0 +1,36 @@
+@media all and (min-width: 992px) and (max-width: 1170px) {
+    header {
+        background-image: url(obrazy/man-2.jpg);
+        height: 70vh;
+        background-size: cover;
+        text-align: end;
+        }
+
+    #flex {
+        justify-content: flex-end;
+        align-content: flex-start;
+        padding-right: 7%;
+    }
+}
+
+
+
+@media all and (max-width: 992px) {
+
+    header {
+        background-image: url(obrazy/man-1.jpg);
+        height: 50vh;
+    }
+
+    #flex h1,
+    #flex h2 {
+        color: black;
+    }
+
+    #flex {
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        padding-top: 30vh;
+    }
+}
