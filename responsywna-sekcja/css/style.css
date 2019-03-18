@@ -1,0 +1,44 @@
+body {
+    box-sizing: border-box;
+    color: rgb(155, 158, 163);
+}
+
+
+
+#main-header {
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+}
+
+#main-header hr {
+    width: 20rem;
+}
+
+#main-header h1 {
+    font-weight: 200;
+}
+
+#main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;  
+}
+
+#main-section .row {
+    width: 100%;
+}
+
+#main-section .icon-container {
+    margin-bottom: 40px;
+}
+
+#main-section p {
+    font-size: 1.5rem;
+}
+
+#main-section i {
+    color: rgb(214, 139, 85)
+}
