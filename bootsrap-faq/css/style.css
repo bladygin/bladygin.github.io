@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    color: rgb(158, 154, 154);
+}
+
+.btn-link {
+    color: rgb(158, 62, 62);
+}
+
+.btn-link:hover {
+    color: rgb(158, 154, 154);
+}
+
+hr {
+    width: 20rem;
+}
