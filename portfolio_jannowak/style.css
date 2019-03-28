@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+#main-nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: #ffffff;
+    height: 50px;
+}
+
+
+#main-nav ul li {
+    display: inline-block;
+    
+}
+
+#main-nav ul li a {
+    text-decoration: none;
+    margin: 10px;
+    color: #1ac056;
+}
+
+#main-header {
+    background-image: url(img/header-background.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    padding: 200px;
+    
+}
+#main-header h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+}
+
+#main-header h1 .name {
+    color: #ffffff;
+    font-weight: 100;
+    
+}
+
+#main-header h1 .sirname {
+    color: #1ac056;
+    font-weight: 900;
+}
+
+
+#main-header h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+#about h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+#about h3 .mnie {
+    color: #1ac056;
+    font-weight: 900;
+}
+
+#about div {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    
+}
+
+#about div figure {
+    display: inline-block;
+    flex-basis: 45%;
+    text-align: center;
+}
+
+#about div figure img {
+    width: 50%;  
+}
+
+#about div p {  
+    display: inline-block;
+    flex-basis: 45%;
+    text-align: left;
+}
+
+#skills h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+#skills h3 .umiejętności {
+    color: #1ac056;
+    font-weight: 900;
+}
+
+#skills div {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#skills div figure {
+    display: inline;
+    text-align: center;
+}
+
+
+
+

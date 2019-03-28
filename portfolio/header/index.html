@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <header id="main-header">
+        <div id="flex">
+            <h1>front end developer</h1>
+            <hr>
+            <p class="inner-header">html <span>&#8226; </span>css <span>&#8226; </span>javascript </p>
+            <button id="main-button">dowiedz sie więcej</button>
+        </div>
+
+    </header>
+
+    <nav>
+        <label class="menu-label" for="menu">menu</label>
+        <input id="menu" name="menu" type="checkbox">
+        <ul>
+            <li><a href="#o-mnie">o mnie</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#kontakt">kontakt</a></li>
+        </ul>
+    </nav>
+
+    <section id="o-mnie">
+        <flex-seksja>
+            <h2>o mnie</h2>
+            <hr>
+            <img id="about" src="img/about.jpg" alt="O mnie">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque optio obcaecati minus facilis esse magnam sit magni corporis recusandae consectetur dolorum velit sapiente dolor, aliquam sed fugiat numquam atque iusto.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed repellendus debitis fugiat, impedit ut, quo necessitatibus commodi aut error molestias minima doloremque enim nam corrupti hic, saepe neque qui vel.</p>
+            <button id="sekcja"><a href="portfolio"></a>portfolio</button>
+        </flex-seksja>
+    </section>
+
+    <section id="portfolio">
+        <h2>moje portfolio</h2>
+        <hr>
+        <div class="gallery">
+            <figure>
+                <img src="img/portfolio/photo-1.jpg" alt="photo-1">
+                <figcaption>projekt</figcaption>
+            </figure>
+            <figure>
+                <img src="img/portfolio/photo-2.jpg" alt="photo-2">
+                <figcaption>projekt</figcaption>
+            </figure>
+            <figure>
+                <img src="img/portfolio/photo-3.jpg" alt="photo-3">
+                <figcaption>projekt</figcaption>
+            </figure>
+            <figure>
+                <img src="img/portfolio/photo-4.jpg" alt="photo-4">
+                <figcaption>projekt</figcaption>
+            </figure>
+            <figure>
+                <img src="img/portfolio/photo-5.jpg" alt="photo-5">
+                <figcaption>projekt</figcaption>
+            </figure>
+            <figure>
+                <img src="img/portfolio/photo-6.jpg" alt="photo-6">
+                <figcaption>projekt</figcaption>
+            </figure>
+            <figure>
+                <img src="img/portfolio/photo-7.jpg" alt="photo-7">
+                <figcaption>projekt</figcaption>
+            </figure>
+            <figure>
+                <img src="img/portfolio/photo-8.jpg" alt="photo-8">
+                <figcaption>projekt</figcaption>
+            </figure>
+            <figure>
+                <img src="img/portfolio/photo-9.jpg" alt="photo-9">
+                <figcaption>projekt</figcaption>
+            </figure>
+            <figure>
+                <img src="img/portfolio/photo-10.jpg" alt="photo-10">
+                <figcaption>projekt</figcaption>
+            </figure>
+            <figure>
+                <img src="img/portfolio/photo-11.jpg" alt="photo-11">
+                <figcaption>projekt</figcaption>
+            </figure>
+            <figure>
+                <img src="img/portfolio/photo-12.jpg" alt="photo-12">
+                <figcaption>projekt</figcaption>
+            </figure>
+
+        </div>
+    </section>
+
+    <section id="kontakt">
+        <h2>kontakt</h2>
+        <hr>
+        <form action="https://formspree.io/bladygin@gmail.com" method="POST">
+            <input type="text" name="name" id="name" placeholder="Imię">
+            <input type="email" name="mail" id="mail" placeholder="Email"><br/>
+            <textarea name="message" id="message" cols="30" rows="5" placeholder="Wiadomość"></textarea>
+            <input id="submit" type="submit" name="send" value="Wyślij wiadomość">
+        <div class="social-media">
+            <a href="https://www.facebook.com/home.php" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+            <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube fa-3x"></i></a>
+        </div>
+     </section>
+    
+     <footer>Copyright © Akademia 108 - Szkoła Programowania</footer>
+
+
+
+
+
+
+</body>
+</html>

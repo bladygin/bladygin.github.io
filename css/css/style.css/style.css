@@ -249,4 +249,97 @@ img {
         overflow: auto;
     }
 
-    
+    /* TRANSFORMACJE */
+    #rotate {
+        background-color: black;
+        width: 200px;
+        height: 200px;
+        transform: rotate(20deg);
+        overflow:;
+    }
+/* ROTUJE WG LEWY GÓRNY RÓG */
+    /* #rotate {
+        transform-origin: 0 0;
+    } */
+
+    /* PRZESUNIĘCIE */
+    #translate {
+        background-color: blue;
+        width: 300px;
+        height: 50px;
+        transform: translate(100px, 50px);
+    }
+
+    /* SKALOWANIe */
+    #scale {
+        height: 500px;
+        width: 500px;
+        /* overflow: hidden; */
+    }
+
+    /* #scale img {
+        transition: all 0.4s; 
+    }
+    /* all tutaj to domyślnie: ease-on delay 0, czas ustawiamy */
+
+    /* #scale img:hover {
+        transform: scale(2);
+    } */ 
+
+
+    /* ANIMACJA */
+
+    #scale img {
+        animation-name: skaluj;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+
+    @keyframes skaluj {
+        0%, 100% {
+        transform: scale(1);
+        }
+
+        30% {
+            transform: scale(2);
+        }
+
+        70% {
+            transform: scale(3);
+        }
+    }
+
+    /* FLEX */
+
+    #flex {
+        height: 400px;
+        background-color: orange;
+        display: flex;
+        /* flex-direction: column; */
+        /* flex-wrap: wrap; */
+        justify-content: space-evenly;
+        /* align-content: center; */
+        align-items: center;
+
+    }
+
+    .flex-inner {
+        height: 100px;
+        background-color: blue;
+        flex-basis: 25%;
+        flex-shrink: 1;
+    }
+
+    .flex-inner:nth-of-type(5) {
+        flex-grow: 0.5;
+        align-self: flex-end;
+    }
+
+    /* flex-shrink nie działa przy flex-wrap: wrap */
+
+    .flex-inner:nth-of-type(1) {
+        flex-shrink: 2;
+        order: 1;
+    }

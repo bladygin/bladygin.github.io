@@ -1,0 +1,67 @@
+
+@media all and (min-width:768px) and (max-width:992px) {
+    .gallery figure {
+        flex-basis: 50%;
+    }
+}
+
+@media all and (min-width:480px) and (max-width:768px) {
+    .gallery figure {
+        flex-basis: 100%;
+    }
+
+    form {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    form textarea {
+        width: 100%;
+        font-size: 0 auto;
+    }
+}
+
+@media all and (max-width:480px) {
+    .menu-label {
+        display: block;
+        text-align: right;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+
+    nav {
+        display:block;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav #menu:checked + ul {
+        display: block;
+    }
+
+    nav ul li {
+        display: block;
+    }
+    
+    .gallery figure {
+        flex-basis: 100%;
+    }
+    form {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    form input,
+    form textarea
+     {
+         flex-basis: 100%;
+    
+    }
+
+    #submit {
+        flex-basis: 100%;
+    }
+
+
