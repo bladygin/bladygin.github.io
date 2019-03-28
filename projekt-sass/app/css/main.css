@@ -9019,8 +9019,8 @@ header.header-image {
       font-size: 20px;
       margin-bottom: 24px; }
     #main-slider .carousel-caption .btn-primary {
-      margin-top: 48px;
-      font-size: 14px;
+      margin-top: 24px;
+      font-size: 26px;
       padding: 10px 12px; }
   #main-slider .icon-prev, #main-slider .icon-next {
     top: 45%; }
@@ -9255,8 +9255,8 @@ header.header-image {
   border-color: #a5e200;
   text-transform: uppercase;
   padding: 10px 12px;
-  margin-bottom: 48px;
-  font-size: 26px; }
+  margin-bottom: 24px;
+  font-size: 16px; }
 
 .btn-primary:hover {
   color: #ffffff;
